@@ -6,10 +6,10 @@ float multiplicacion;
 
 int main(){
     printf("Ingrese un decimal:\n");
-    scanf("%d", &numero1);
-    printf("Ingrese otro número decimal:\n")
-    scanf("%d", &numero2);
+    scanf("%f", &numero1);
+    printf("Ingrese un decimal:\n");
+    scanf("%f", &numero2);
     multiplicacion = numero1 * numero2;
-    printf("el resultado de la multiplicacion es %d\n", multiplicacion);
+    printf("el resultado de la multiplicacion es %f:\n", multiplicacion);
     return 0;
 }
